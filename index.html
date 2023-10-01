@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Development - Sudoku Solver Using OpenCV</title>
+    <style>
+           body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .header {
+            text-align: center;
+            padding: 100px 0;
+            background-image: linear-gradient(45deg, #007BFF, #00C49F);
+            color: #fff;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .header p {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .date {
+            font-weight: bold;
+        }
+
+        .register-button {
+            background-color: #fff;
+            color: #007BFF;
+            padding: 20px 40px;
+            font-size: 1.5rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            display: inline-block;
+        }
+
+        .register-button:hover {
+            background-color: #007BFF;
+            color: #fff;
+        }
+        .header {
+            text-align: center;
+            padding: 50px;
+            background-image: url('https://media2.giphy.com/media/ITRemFlr5tS39AzQUL/200w.gif?cid=6c09b9520jggcytzon24jkfqnwm5g83iq59x08gcdupt9bmy&ep=v1_gifs_search&rid=200w.gif&ct=g');
+            background-size: contain;
+            background-position: center;
+            color: #fff;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+ text-shadow: 2px 2px 4px rgba(123, 0, 231, 0.9);
+        }
+
+        .header p {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+text-shadow: 5px 2px 4px rgba(123, 56, 231, 0.6);
+        
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(1, 0, 0, 0.9);
+        }
+
+        h2 {
+            color: #007bff;
+            font-size: 1.8rem;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+        }
+
+        .date {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .call-to-action {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .register-button {
+
+            background-color: #f9135d;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 1.4rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+margin-5px;
+
+        }
+
+        .register-button:hover {
+            background-color: #0056b3;
+        }
+.footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #777;
+        }
+ .mentor-card {
+            background-color: #fff;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 123, 123, 1.4);
+            display: flex;
+            align-items: center;
+        }
+
+        .mentor-image {
+box-shadow: 5px 5px 10px rgba(0, 0, 255, 0.5);
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .mentor-details {
+            flex: 1;
+        }
+
+        .mentor-details h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .mentor-details ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .mentor-details li {
+            font-size: 1.2rem;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+
+        <h1>Project Development - Sudoku Solver Using OpenCV</h1>
+ 
+        <p>Live code Implementation End-to-End Project Development </p>
+        <p>Are you struggling with project development or need guidance from a mentor?</p>
+        <p>Join us to learn from scratch!</p>
+        <p>Webinar Date: <span class="date">8-OCT-2023</span> | Time: <span class="date">2:00 PM - 5:00 PM</span></p>
+<a href="https://topmate.io/hritik_gupta10/587057" class="register-button">Register Now</a>
+    </div>
+   <div class="mentor-card">
+        <img src="https://media.licdn.com/dms/image/D4D03AQG2mbltAMUHvw/profile-displayphoto-shrink_400_400/0/1683986825771?e=1701907200&v=beta&t=a1WfvrmfNafY7G0QkBVfTkGI7riUSHZwC1dzFwp6oCo" alt="Mentor Image" class="mentor-image">
+        <div class="mentor-details">
+            <h2>Hritik Gupta</h2>
+            <ul>
+               <li>Are you not able to create your project?</li>
+            <li>Have you created a project but struggle with implementation?</li>
+            <li>Are you seeking a mentor to guide you?</li>
+            <li>Do you have ideas but struggle to take the first step toward implementation?</li>
+         </ul>
+<a href="https://topmate.io/hritik_gupta10/587057" class="register-button">Register Now</a>
+        </div>
+
+    </div>
+    <div class="content">
+        <h2>Introduction: 🎯</h2>
+        <p>This engaging webinar series is designed to help you become proficient in software development. We'll start by introducing you to the world of coding, project creation, and DSA (Data Structures and Algorithms). 💻</p>
+
+        <h2>Approach: 🌟</h2>
+        <p>We'll explore various ways to approach software development, including popular methodologies like Agile and Waterfall. You'll learn how to choose the right approach for different projects. 📈</p>
+
+        <h2>Environment Creation: 🛠️</h2>
+        <p>Setting up your development workspace is essential. We'll guide you through this process, helping you choose the right tools and technologies. 🧰</p>
+
+        <h2>Requirement Analysis: 📝</h2>
+        <p>Understanding and analyzing project requirements is a crucial skill. You'll learn techniques to gather, document, and prioritize requirements so your projects meet their goals. 🎯</p>
+
+        <h2>Code Implementation: 💡</h2>
+        <p>Now, the fun part – coding! We'll dive into programming languages, coding best practices, and standards. As a hands-on exercise, we'll build a unique Sudoku solver project using AI and DSA, combining Computer Vision with coding. 🤖</p>
+
+        <h2>Certification: 📜</h2>
+        <p>We appreciate your dedication to learning. All attendees will receive a certificate of completion for the workshop and project creation, recognizing your newly acquired skills. 🏆</p>
+
+        <div class="call-to-action">
+           
+            <a href="https://topmate.io/hritik_gupta10/587057" class="register-button">Register Now</a>
+        </div>
+ <div class="footer">
+            <p>Don't miss this fantastic opportunity to enhance your coding skills and broaden your knowledge in software development. Register now and start your journey to become a coding expert! 🌟🚀</p>
+            <p>If you have any questions, please contact us at [Contact Email].</p>
+            <p>Follow us on <a href="https://www.linkedin.com/in/hritik-gupta-ml/">Linkedin</a> for updates and news.</p>
+        </div>
+    </div>
+
+
+</body>
+</html>
